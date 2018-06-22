@@ -1,0 +1,118 @@
+
+body{
+    color: #777;
+    align-content: center;
+    font-family: 'Agency FB', arial;
+    font-size: 24px;
+    margin: 0 auto;
+    background: url("../images/blue_background.jpg") no-repeat;
+    background-size: cover;
+}
+
+#gameDiv{
+    display: none;
+}
+
+#doneDiv{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    clear: b0th;
+}
+
+#StartGame{
+    display: block;
+    text-align: center;
+    color: white;
+    width: 300px;
+    font-size: 50px;
+    background-color: rgb(33, 33, 173);
+    margin: auto;
+    margin-top: 200px;
+}
+
+#maincontent{
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-bottom: 20px;
+    min-height: calc(93vh - 70px);
+    background-color: rgb(20, 177, 240);
+    opacity: 0.85;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 40px;
+    letter-spacing: 5px;
+    color: blue;
+}
+
+.h2heading, .questions ,.answers , .allDone , .answerP{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+.h2heading{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.questions{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.answers{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input[type=radio] {
+	height: 15px;
+	width: 15px;
+}
+
+.answers{
+    font-size: 20px;
+}
+
+#doneGame{
+   
+     text-align: center;
+     width: 150px;
+     margin-left: 43%;
+     margin-top: 10px;
+    left: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(33, 33, 173);
+}
+
+.subContainer{
+    display: none;
+    width: 80%;
+    height: 100%;    
+    text-align: center;
+    margin: 60px;
+}
+
+.answerP{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+span{
+    margin-right: 10px;
+}
